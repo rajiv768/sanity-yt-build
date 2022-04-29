@@ -1,16 +1,18 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    // items-center(y-axis) justify-center(x-axis) puts element in center, flex min-h-screen flex-col py-2
+    <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Medium Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>This is Medium 2.0</h1>
+      <Header />
 
       {/* <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">

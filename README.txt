@@ -14,3 +14,8 @@ Project output path: Enter
 Select project template: Blog schema
 Now we have a new project sanityyoutube in https://www.sanity.io/
 npm run dev
+
+git remote add origin https://github.com/rajiv768/sanity-yt-build.git
+git add .
+git commit -m 'first commit'
+git push -u origin main
