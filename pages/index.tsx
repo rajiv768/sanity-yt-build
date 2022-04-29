@@ -6,13 +6,25 @@ import Header from '../components/Header'
 const Home: NextPage = () => {
   return (
     // items-center(y-axis) justify-center(x-axis) puts element in center, flex min-h-screen flex-col py-2
-    <div className="">
+    <div className="max-w-7xl mx-auto">
       <Head>
         <title>Medium Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
+
+      <div className='flex justify-between items-center bg-yellow-400 border-y border-black py-10'>
+        <div className='px-10 space-y-5'>
+          <h1 className='text-6xl max-w-xl font-serif'>
+            <span className='underline decoration-black decoration-4'>Medium</span> is a place to write, read, and connect</h1>
+          <h2>It's easy and free to post your thinking on any topic and connect with millions of readers.</h2>
+        </div>
+
+        {/* <img src='https://accountabilitylab.org/up-content/uploads/2020/03/Medium-logo.png' alt='' /> */}
+        <img className='hidden md:inline-flex h-32 lg:h-full mr-5'
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4t_VCFkQYRapv_1Ae8SrI8-5ijaTj5wG_OA&usqp=CAU' alt='' />
+      </div>
 
       {/* <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
