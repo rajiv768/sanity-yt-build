@@ -19,3 +19,12 @@ git remote add origin https://github.com/rajiv768/sanity-yt-build.git
 git add .
 git commit -m 'first commit'
 git push -u origin main
+
+To run sanity studio server(backend server), open another command window & cd sanityyoutube
+sanity login
+sanity start
+Now we have 2 apps running which is sanity-yt-build(front-end) at localhost:3000 & sanityyoutube at http://localhost:3333
+
+open 3rd command prompt & run npm i next-sanity
+
+http://localhost:3333/desk
