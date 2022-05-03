@@ -28,3 +28,6 @@ Now we have 2 apps running which is sanity-yt-build(front-end) at localhost:3000
 open 3rd command prompt & run npm i next-sanity
 
 http://localhost:3333/desk
+http://localhost:3000/post/rajiv-arora
+ISR - Incremental Static Regeneration
+npm i react-portable-text
