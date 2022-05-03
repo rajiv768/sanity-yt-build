@@ -39,3 +39,11 @@ https://www.sanity.io/manage/personal/project/04gd9482
 https://www.sanity.io/manage/personal/project/04gd9482/api
 https://www.sanity.io/manage/personal/project/04gd9482/api#tokens
 Add API token with Name Youtube Sanity & Editor selection, Save & Copy the token
+
+cd sanityyoutube
+sanity deploy
+Studio hostname (<value>.sanity.studio): eji3r82irnj23rhf
+Success! Studio deployed to https://eji3r82irnj23rhf.sanity.studio/
+add everything to github
+go to vercel.com
+add new project & import from github sanity-yt-build project
