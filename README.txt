@@ -31,3 +31,11 @@ http://localhost:3333/desk
 http://localhost:3000/post/rajiv-arora
 ISR - Incremental Static Regeneration
 npm i react-portable-text
+
+npm install react-hook-form
+npm i @sanity/client
+https://www.sanity.io/manage
+https://www.sanity.io/manage/personal/project/04gd9482
+https://www.sanity.io/manage/personal/project/04gd9482/api
+https://www.sanity.io/manage/personal/project/04gd9482/api#tokens
+Add API token with Name Youtube Sanity & Editor selection, Save & Copy the token
